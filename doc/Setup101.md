@@ -1,3 +1,44 @@
+## Paperspace Setup
+### Creating the Machine
+1. Create paperspace account: [here - signup](https://www.paperspace.com/account/signup)
+2. After logging in go to Core -> Computer -> Machines or click [here - machines](https://www.paperspace.com/console/machines)
+3. Click "New Machine" and configure like so:
+  * Choose West Coast for region
+  * Under Public Templates choose Fast.ai
+  * Select hourly GPU+
+  * Select 50GB for storage (5$/mo)
+    * note that you pay for storage as soon as you start the machine up so don't mess up!
+  * Turn off Auto Snapshot
+  * Turn on Public IP (3$/mo)
+4. Enter your payment information and apply referral code: `TODO`
+  * Payment info is required even with a code
+5. Click "Create Your Paperspace"
+6. You'll receive an email with a temporary password once your machine is ready
+```
+Hi there,
+
+Congratulations! Your new Paperspace Linux machine has been created, and is ready when you are!
+
+Your temporary sign-in password for machine New Machine 1 is: *************
+
+You can ssh into your new machine with the following command:ssh paperspace@##.###.###.###
+
+Happy computing!
+- The Paperspace Team
+```
+### Logging in and updating machine
+* TODO git pull
+* TODO conda env update
+* TODO password change
+
+### Jupyter Notebook Server
+* TODO
+
+### Shutdown
+* TODO
+
+## Unix Commands
+You'll be needing these in order to use your own datasets.
 **Making a directory**
 ```
 mkdir mydir                 # Creates a new directory

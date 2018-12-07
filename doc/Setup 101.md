@@ -1,14 +1,14 @@
 **Making a directory**
-`
+```
 mkdir mydir                 # Creates a new directory
 mkdir -m a=rwx mydir        # Creates a new directory and set permissions so all users may read, write, and execute the contents.
 mkdir test1 test2 test3     # Creates multiple directories
 mkdir -p /home/test/test1/test2/test3/test4
                             # Creates multiple subdirectory levels at once
-`
+```
 
 **Moving files/directories**
-`
+```
 mv myfile mynewfilename     # renames 'myfile' to 'mynewfilename'.
 mv myfile ~/myfile          # moves 'myfile' from the current directory to user's home directory.
                             # the notation '~' refers to the user's "home" (login) directory
@@ -26,15 +26,15 @@ mv /var/log/*z ~/logs       # takes longer than expected if '/var' is on a diffe
                             # include a list of non-directories and a terminating directory
 
 man mv                      # displays the complete UNIX manual page for the 'mv' command.
-`
+```
 
 **Unzipping a zipped file**
-`
+```
 unzip training_set.zip      # Unzips training_set in its current directory
-`
+```
 You'll want to move the zipped file into its own folder before unzipping like so:
-`
+```
 mv training_set.zip training_set/training_set.zip
 cd training_set
 unzip training_set.zip
-`
+```

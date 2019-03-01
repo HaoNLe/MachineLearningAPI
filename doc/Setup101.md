@@ -10,7 +10,7 @@
       * note that you pay for storage as soon as you start the machine up so don't mess up!
    * Turn off Auto Snapshot
    * Turn on Public IP (3$/mo)
-4. Enter your payment information and apply referral code: `TODO`
+4. Enter your payment information and apply referral code: https://www.paperspace.com/&R=P4LLNPI
    * Payment info is required even with a code
 5. Click "Create Your Paperspace"
 6. You'll receive an email with a temporary password once your machine is ready
